@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <Login_R/>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import Login_R from '../components/login.vue'
 
   export default {
     name: 'Home_Page',
 
     components: {
-      HelloWorld,
+      Login_R
     },
   }
 </script>
